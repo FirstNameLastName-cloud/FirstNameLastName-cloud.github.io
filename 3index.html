@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Professional Profile</title>
+  <meta name="description" content="A free personal website template for creating a simple professional online presence.">
+
+  <style>
+    :root {
+      --bg: #f7f5f1;
+      --card: #fffdf8;
+      --text: #1f2933;
+      --muted: #667085;
+      --line: #ded8cc;
+      --accent: #2f5d50;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.5fr 0.8fr;
+      gap: 48px;
+      align-items: end;
+      padding-bottom: 56px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      margin: 0 0 16px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      line-height: 0.95;
+      letter-spacing: -0.05em;
+    }
+
+    .summary {
+      margin-top: 28px;
+      max-width: 650px;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .button-primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .button-secondary {
+      border: 1px solid var(--accent);
+      color: var(--accent);
+    }
+
+    .info-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+    }
+
+    .info-card strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .info-card p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    section {
+      padding: 48px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 24px;
+      font-size: 0.9rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .links a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 4px;
+    }
+
+    .checklist {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px;
+    }
+
+    .checklist ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    footer {
+      padding-top: 40px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 760px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      main {
+        width: min(100% - 28px, 920px);
+        padding-top: 42px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<main>
+
+  <header class="hero">
+
+    <div>
+
+      <p class="eyebrow">
+        Free Online Presence Template
+      </p>
+
+      <h1>
+        Your Name Goes Here
+      </h1>
+
+      <p class="summary">
+        Welcome.
+
+        This template is designed to help you create a simple professional online presence using free tools.
+
+        Replace all sample text with your own information. Upload your resume as a PDF, update your contact details and publish the page.
+
+        The goal is to help employers, clients, schools, volunteer organizations and professional contacts quickly learn who you are and how to reach you.
+      </p>
+
+      <div class="actions">
+
+        <a class="button button-primary"
+           href="REPLACE-WITH-YOUR-RESUME-LINK">
+          View Resume
+        </a>
+
+        <a class="button button-secondary"
+           href="mailto:your-email@example.com">
+          Contact Me
+        </a>
+
+      </div>
+
+    </div>
+
+    <aside class="info-card">
+
+      <p>
+        <strong>Purpose</strong>
+        This page serves as your professional introduction.
+      </p>
+
+      <p>
+        <strong>Location</strong>
+        Replace with your city, province/state or country.
+      </p>
+
+      <p>
+        <strong>Last Updated</strong>
+        Month Year
+      </p>
+
+    </aside>
+
+  </header>
+
+  <section>
+
+    <h2>
+      What Should Be On Your Page?
+    </h2>
+
+    <div class="grid">
+
+      <article class="card">
+
+        <h3>
+          About You
+        </h3>
+
+        <p>
+          Write a short introduction explaining who you are,
+          what opportunities you are seeking and what skills,
+          experience or interests you bring.
+        </p>
+
+      </article>
+
+      <article class="card">
+
+        <h3>
+          Resume
+        </h3>
+
+        <p>
+          Upload your resume as a PDF and connect it to the
+          "View Resume" button near the top of the page.
+        </p>
+
+      </article>
+
+      <article class="card">
+
+        <h3>
+          Contact Information
+        </h3>
+
+        <p>
+          Include at least one reliable contact method such as
+          email, LinkedIn, GitHub, a portfolio or another
+          professional profile.
+        </p>
+
+      </article>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <h2>
+      Useful Links
+    </h2>
+
+    <div class="links">
+
+      <a href="https://pages.github.com">
+        GitHub Pages
+      </a>
+
+      <a href="https://sites.google.com">
+        Google Sites
+      </a>
+
+      <a href="https://drive.google.com">
+        Google Drive
+      </a>
+
+      <a href="https://www.linkedin.com">
+        LinkedIn
+      </a>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <h2>
+      Before Publishing
+    </h2>
+
+    <div class="checklist">
+
+      <ul>
+        <li>Upload your resume PDF</li>
+        <li>Add your email address</li>
+        <li>Add your city or region</li>
+        <li>Test every link</li>
+        <li>Check spelling and grammar</li>
+        <li>Open the page on a mobile phone</li>
+        <li>Ask someone to review it</li>
+        <li>Publish and share your link</li>
+      </ul>
+
+    </div>
+
+  </section>
+
+  <footer>
+    This template is intended for educational purposes.
+    Replace all placeholder content with your own information before publishing.
+  </footer>
+
+</main>
+
+</body>
+</html>
